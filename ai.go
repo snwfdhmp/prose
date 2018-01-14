@@ -2,7 +2,6 @@ package prose
 
 import (
 	"io"
-	"os/exec"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -51,12 +50,7 @@ func (ai *AI) Run(actions []*Action, w io.Writer, stopIfError bool) []error {
 	var errs []error
 	for _, a := range actions {
 		a.Writer = w
-		ai.Logger.Infoln("Running", a.Command)
-		cmd := exec.Command("zsh", "-c", a.Command)
-
-		cmd.Stdout = a.Writer
-		cmd.Stderr = a.Writer
-		if err := cmd.Run(); err != nil {
+		if err := a.Run(a); err != nil {
 			errs = append(errs, err)
 			if stopIfError {
 				return errs
