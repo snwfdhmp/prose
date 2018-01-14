@@ -28,10 +28,14 @@ func (a *Action) On(entities ...*Entity) {
 }
 
 func (ai *AI) NewCommandAction(command string) *Action {
-	return NewAction(func(a *Action) error {
+	return NewAction(ai.NewCommandActionFunc(command))
+}
+
+func (ai *AI) NewCommandActionFunc(command string) func(a *Action) error {
+	return func(a *Action) error {
 		ai.Logger.Infoln("Running", command)
 		cmd := exec.Command("zsh", "-c", command)
 
 		return cmd.Run()
-	})
+	}
 }
