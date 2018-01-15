@@ -1,10 +1,28 @@
 # Prose
 
+## Summary
+
+- [Get Started](#get-started)
+- [Entity](#entity)
+- [Action](#action)
+- [AI](#ai)
+- [Example](#example)
+
 ## Introduction
 
 Prose is a golang package used to perform language-processing by the use of entity-matching.
 
 It's developed by [snwfdhmp](https://github.com/snwfdhmp)
+
+## Get Started
+
+You can install package simply by
+
+```
+go get github.com/snwfdhmp/prose
+```
+
+Then you can use it simply by importing `github.com/snwfdhmp/prose`.
 
 ## Entity
 
@@ -117,6 +135,8 @@ func main() {
 	}
 }
 ```
+
+Let's run the example above :
 
 ```sh
 $ go run example.go
