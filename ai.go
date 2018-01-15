@@ -1,9 +1,5 @@
 // prose is a package used to perform language-processing by the use of
 // automated or user-custom regexp.
-//
-// Example:
-//
-//
 package prose
 
 import (

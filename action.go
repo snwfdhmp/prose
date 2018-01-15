@@ -26,6 +26,10 @@ func (a *Action) On(entities ...*Entity) {
 	a.Trigger = append(a.Trigger, entities)
 }
 
+func (a *Action) Write(str string) {
+	io.WriteString(a.Writer, str)
+}
+
 // NewCommandAction is a shortcut used to provide shell-command-running actions
 func (ai *AI) NewCommandAction(command string) *Action {
 	return NewAction(ai.NewCommandActionFunc(command))
