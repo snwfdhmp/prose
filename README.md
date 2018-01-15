@@ -89,7 +89,7 @@ They are simply created by :
 ai := prose.NewAI("Jarvis", logrus.New())
 ```
 
-## Example
+# Example
 
 ```go
 package main
@@ -144,6 +144,6 @@ $ go run example.go
 It's 01:53
 ```
 
-## Maintainer
+# Maintainer
 
 My GitHub profile : [snwfdhmp](https://github.com/snwfdhmp)
