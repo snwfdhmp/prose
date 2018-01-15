@@ -14,7 +14,9 @@ Prose is a golang package used to perform language-processing by the use of enti
 
 It's developed by [snwfdhmp](https://github.com/snwfdhmp)
 
-## Get Started
+Extended documentation can be found [here](https://godoc.com/github.com/snwfdhmp/prose).
+
+# Get Started
 
 You can install package simply by
 
