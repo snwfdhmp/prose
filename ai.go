@@ -1,11 +1,9 @@
-/**
- * AI represents a Bot.
- *
- * Example:
- *
- * ai := NewAi("Siri", logrus.New())
- *
- */
+// prose is a package used to perform language-processing by the use of
+// automated or user-custom regexp.
+//
+// Example:
+//
+//
 package prose
 
 import (
