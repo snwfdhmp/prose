@@ -1,5 +1,11 @@
 # Prose
 
+## Introduction
+
+Prose is a golang package used to perform language-processing by the use of entity-matching.
+
+Extended documentation can be found [here](https://godoc.com/github.com/snwfdhmp/prose).
+
 ## Summary
 
 - [Get Started](#get-started)
@@ -8,12 +14,6 @@
 	- [AI](#ai)
 - [Example](#example)
 - [Maintainer](#example)
-
-## Introduction
-
-Prose is a golang package used to perform language-processing by the use of entity-matching.
-
-Extended documentation can be found [here](https://godoc.com/github.com/snwfdhmp/prose).
 
 # Get Started
 
@@ -24,6 +24,8 @@ go get github.com/snwfdhmp/prose
 ```
 
 Then you can use it simply by importing `github.com/snwfdhmp/prose`.
+
+Full documentation can be found [here](https://godoc.com/github.com/snwfdhmp/prose).
 
 ## Entity
 
