@@ -3,16 +3,15 @@
 ## Summary
 
 - [Get Started](#get-started)
-- [Entity](#entity)
-- [Action](#action)
-- [AI](#ai)
+	- [Entity](#entity)
+	- [Action](#action)
+	- [AI](#ai)
 - [Example](#example)
+- [Maintainer](#example)
 
 ## Introduction
 
 Prose is a golang package used to perform language-processing by the use of entity-matching.
-
-It's developed by [snwfdhmp](https://github.com/snwfdhmp)
 
 Extended documentation can be found [here](https://godoc.com/github.com/snwfdhmp/prose).
 
@@ -144,3 +143,7 @@ Let's run the example above :
 $ go run example.go
 It's 01:53
 ```
+
+## Maintainer
+
+My GitHub profile : [snwfdhmp](https://github.com/snwfdhmp)
