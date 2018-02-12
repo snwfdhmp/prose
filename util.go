@@ -18,7 +18,7 @@ func RegexpWords(words ...string) *regexp.Regexp {
 //newTrigger returns an empty 2D slice of pointer to Entity
 func newTrigger() [][]*Entity {
 	ts := make([][]*Entity, 0)
-	for i, _ := range ts {
+	for i := range ts {
 		ts[i] = make([]*Entity, 0)
 	}
 	return ts

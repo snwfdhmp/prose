@@ -1,0 +1,6 @@
+- name: compile
+  test: go install
+  reward: 0
+- name: lint
+  test: golint -set_exit_status
+  reward: 0
