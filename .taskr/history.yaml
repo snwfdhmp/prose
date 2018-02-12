@@ -2,4 +2,7 @@ states:
   65381de3e93a5a95061c616332853a6b520ce6ec:
     compile: true
     lint: false
-tip: 65381de3e93a5a95061c616332853a6b520ce6ec
+  f263b5e4d8c8ca9f1b0e11393d97367475b9fb8c:
+    compile: true
+    lint: true
+tip: f263b5e4d8c8ca9f1b0e11393d97367475b9fb8c
