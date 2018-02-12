@@ -1,5 +1,5 @@
 /*
-Prose is a golang package used to perform language-processing by the use of entity-matching.
+Package prose is used to perform language-processing by the use of entity-matching.
 
 GitHub: http://github.com/snwfdhmp/prose
 Developer: snwfdhmp
