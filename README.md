@@ -2,7 +2,15 @@
 
 ## Introduction
 
-Prose is a golang package used to perform language-processing by the use of entity-matching.
+Prose implements simple language-processing by using simple regexps to recognize certain "meaning entities" inside a messsage.
+
+It's good at :
+
+- Understanding a command request and its parameters out of a human message
+
+It's not good at :
+
+- Understanding the meaning of a message outside pre-defined scopes
 
 Extended documentation can be found [here](https://godoc.org/github.com/snwfdhmp/prose).
 
@@ -13,7 +21,7 @@ Extended documentation can be found [here](https://godoc.org/github.com/snwfdhmp
 	- [Action](#action)
 	- [AI](#ai)
 - [Example](#example)
-- [Maintainer](#example)
+- [Author](#author)
 
 # Get Started
 
@@ -146,6 +154,6 @@ $ go run example.go
 It's 01:53
 ```
 
-# Maintainer
+# Author
 
-My GitHub profile : [snwfdhmp](https://github.com/snwfdhmp)
+Click my awesome [GitHub profile](https://github.com/snwfdhmp), the 1000000th visitor will be offered a special gift.
