@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Prose implements simple language-processing by using simple regexps to recognize certain "meaning entities" inside a messsage.
+Prose implements simple language-processing by using simple regexps to recognize certain "meaning entities" inside a message.
 
 It's good at :
 
